@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+  background-color:#3D7188;
+    color: #ffffff;
+  }
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .title{
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  .palindrome-checker{
+    width: min(100vw, 400px);
+    min-height: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: white;
+    
+  }
+  .palindrome-btn {
+    width: 90px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #3D7188;
+    color: #fff;
+    cursor: pointer;
+  }
+  .palindrome-input {
+    height: 30px;
+    width: 220px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: 1px solid;
+    
+  }
+  .results-div {
+    overflow-y: auto;
+    word-wrap: break-word;
+    min-height: 50px;
+    color: black;
+    padding: 20px
+  
+  }
